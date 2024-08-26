@@ -32,7 +32,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Intro Component With Signup Form ](https://mahbt.github.io/intro-component-with-signup-form/)
 
 ## My process
