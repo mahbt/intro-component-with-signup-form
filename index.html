@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: fixed;
+        bottom: -30px;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <!-- Left -->
+      <div class="content-left">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <!-- Right -->
+      <div class="form-right">
+        <a href="#" class="btn"
+          ><span>Try it free 7 days</span> then $20/mo. thereafter</a
+        >
+
+        <!-- Form -->
+        <div class="form-container">
+          <form action="#">
+            <div class="form-group">
+              <label for="first-name" class="visually-hidden">First Name</label>
+              <input
+                type="text"
+                placeholder="First Name"
+                class="first-name"
+                id="first-name"
+              />
+              <img
+                src="./images/icon-error.svg"
+                alt="error icon"
+                class="error-icon hidden"
+              />
+              <span class="toast-msg hidden" id="first-name-toast">
+                <p>First Name cannot be empty</p>
+              </span>
+            </div>
+            <div class="form-group">
+              <label for="last-name" class="visually-hidden">Last Name</label>
+              <input
+                type="text"
+                placeholder="Last Name"
+                class="last-name"
+                id="last-name"
+              />
+              <img
+                src="./images/icon-error.svg"
+                alt="error icon"
+                class="error-icon hidden"
+              />
+              <span class="toast-msg hidden" id="last-name-toast">
+                <p>Last Name cannot be empty</p>
+              </span>
+            </div>
+            <div class="form-group">
+              <label for="email" class="visually-hidden">Email Address</label>
+              <input
+                type="text"
+                placeholder="Email Address"
+                class="email"
+                id="email"
+              />
+              <img
+                src="./images/icon-error.svg"
+                alt="error icon"
+                class="error-icon hidden"
+              />
+              <span class="toast-msg hidden" id="email-toast">
+                <p>Looks like this is not an email</p>
+              </span>
+            </div>
+            <div class="form-group">
+              <label for="password" class="visually-hidden">Password</label>
+              <input
+                type="text"
+                placeholder="Password"
+                class="password"
+                id="password"
+              />
+              <img
+                src="./images/icon-error.svg"
+                alt="error icon"
+                class="error-icon hidden"
+              />
+              <span class="toast-msg hidden" id="password-toast">
+                <p>Password cannot be empty</p>
+              </span>
+            </div>
+
+            <button class="btn">Claim your free trial</button>
+          </form>
+
+          <p>
+            By clicking the button, you are agreeing to our
+            <a href="#">Terms and Services</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/mahbt">Mahbt</a>.
+      </p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
